@@ -12,11 +12,10 @@ archers_paradox-1.16.4-1.2.0.jar
 architectury-1.17.20-forge.jar
 atmospheric-1.16.5-3.1.0.jar
 AttributeFix-1.16.5-10.1.2.jar
-AutoRegLib-1.6-47.jar
+AutoRegLib-1.6-49.jar
 BadMobs-1.16.5-9.0.3.jar
 bambooeverything-1.16.5-1.0.0-forge.jar
 Bayou-Blues-1.16.5-1.0.5.jar
-Better-Badlands-1.16.5-2.0.3.jar
 BetterAdvancements-1.16.5-0.1.0.108.jar
 BetterCaves-Forge-1.16.4-1.1.2.jar
 betterendforge-1.16.4-1.6.0.jar
@@ -40,7 +39,7 @@ carryon-1.16.5-1.15.5.15.jar
 CavesAndCliffsBackport-1.16.5-5.2.jar
 charm-forge-1.16.5-2.3.2.jar
 chocolate-1.3.0-1.16.4.jar
-citadel-1.6.3.jar
+citadel-1.7.1-1.16.5.jar
 cleancut-mc1.16-2.2-forge.jar
 ClientTweaks_1.16.3-5.3.0.jar
 cloth-config-4.11.26-forge.jar
@@ -84,18 +83,19 @@ environmental-1.16.5-1.0.0.jar
 evilwanderingtrader-1.2.jar
 exoticbirds-1.16.4-1.1.0.jar
 extendedbonemeal_1.16.5-1.3.jar
-extendedmushrooms-1.5.3-1.16.3+.jar
+extendedmushrooms-1.6.1-1.16.5+.jar
 extractlist.txt
 extratrades-1.16.4-1.1.jar
 Fallingleaves-1.16.3-1.0.2.jar
 fancymenu
-fancymenu_2.0.7_MC_1.16.2-1.16.5.jar
+fancymenu_2.1.0_MC_1.16.2-1.16.5.jar
 FastLeafDecay-v25.jar
+FpsReducer-mc1.16.5-1.19.jar
 frozenup-1.0.1.jar
 ftb-gui-library-1605.2.1.41-forge.jar
 ftb-quests-1605.2.1-build.39-forge.jar
 GameMenuModOption-1.16.4-1.8.jar
-geckolib-forge-1.16.5-3.0.40.jar
+geckolib-forge-1.16.5-3.0.41.jar
 globaldataandresourcepacks-1.16.4-1.7.4.jar
 goblintraders-1.6.0-1.16.3.jar
 goldenhopper-1.2.0-1.16.3.jar
@@ -107,7 +107,7 @@ infernal-expansion-forge-1.3.jar
 InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar
 item-filters-1605.2.4-build.30-forge.jar
 Jade-1.16.4-2.7.1.jar
-jei-1.16.5-7.7.0.104.jar
+jei-1.16.5-7.7.0.106.jar
 jei-professions-1.0.0-1.16.4.jar
 JEIEnchantmentInfo-1.16.4-1.2.1.jar
 jeiintegration_1.16.5-7.0.1.15.jar
@@ -120,9 +120,9 @@ Kobolds-1.2.3.jar
 konkrete_1.1.6_MC_1.16.2-1.16.5.jar
 kotlinforforge-1.12.1-obf.jar
 lazydfu-0.1.3.jar
-Leos_Mushrooms-1.16.4-v0.1.0.jar
+Leos_Mushrooms-1.16.4-v0.2.0.jar
 masonry-1.16.3-0.3.6.jar
-MoreCraftingTables+-+1.16.4.jar
+MoreCraftingTables - 1.16.5.jar
 morerespawnanchors-1.16.5-1.3.0.jar
 morevillagers-FORGE-1.16.5-1.5.1.jar
 MouseTweaks-2.14-mc1.16.2.jar
@@ -132,22 +132,20 @@ nether-s-exoticism-1.16.5-1.0.5.jar
 NourishedNetherV7.jar
 OddWaterMobs[1.16.5]_1.3.0.jar
 omnis-1.16.5-1.1.2.3.jar
-omnis_backpacks-1.1.0.jar
+omnis_backpacks-1.2.1.jar
 oneplayersleeping-1.16.4-0.0.5.jar
 OuterEnd-0.2.11.jar
 outvoted-1.16.5-1.2.4.jar
 overloadedarmorbar-5.1.0.jar
 paintings-1.16.4-7.0.0.1.jar
 Patchouli-1.16.4-51.jar
-performant-1.16.2-5-3.60m.jar
+performant-1.16.2-5-3.66m.jar
 personality-1.16.5-1.0.2.jar
 PickUpNotifier-v1.2-1.16.3.jar
 polymorph-forge-1.16.5-0.24.jar
-pyromancer 1.5.0.jar
-Quark-r2.4-311.jar
+Quark-r2.4-312.jar
 randompatches-2.4.4-forge.jar
-rediscovered-1.16.4-1.3.7.jar
-repurposed_structures-1.16.5-2.7.3-forge.jar
+repurposed_structures-1.16.5-2.7.5-forge.jar
 RevampedWolf-1.16.4-0.7.1.jar
 Runelic-1.16.5-7.0.1.jar
 sapience-1.16.4-1.1.1.jar
@@ -158,6 +156,7 @@ SimplyImprovedTerrain-0.3.2-Forge.jar
 sit-1.16.5-v1.3.1.jar
 SnowRealMagic-1.16.4-2.5.7.jar
 Snow_Pig-1.16.5-2.2.3.jar
+soulblaze-1.16.5-1.1.jar
 Spheric 1.0.2 1.16.5.jar
 spiders-2.0-1.16.4-1.0.4.jar
 stalwart-dungeons-1.16.5-1.0.0.jar

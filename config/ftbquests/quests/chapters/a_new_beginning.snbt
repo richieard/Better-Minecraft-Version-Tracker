@@ -10,7 +10,7 @@
 		{
 			title: "Start A New Beginning!",
 			icon: "minecraft:grass_block",
-			x: -4.5d,
+			x: -3.0d,
 			y: 1.0d,
 			id: "7AB5EA68B6C4B8C8",
 			tasks: [{
@@ -54,23 +54,6 @@
 					}
 				}
 			]
-		},
-		{
-			title: "Make A Drean Pillow",
-			x: -3.0d,
-			y: 1.0d,
-			id: "346B370108602127",
-			tasks: [{
-				id: "4A2182264E63940D",
-				type: "item",
-				item: "rediscovered:dream_pillow"
-			}],
-			rewards: [{
-				id: "470C4AFCB15C5460",
-				type: "item",
-				item: "rediscovered:ruby",
-				count: 9
-			}]
 		},
 		{
 			title: "Break the Stacked Dimension Block",
