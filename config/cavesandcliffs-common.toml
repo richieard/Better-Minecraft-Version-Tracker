@@ -1,0 +1,26 @@
+
+["Ore Generation Settings"]
+	#toggle the generation of copper ore
+	doesCopperGenerate = true
+	#toggle the generation of tuff blobs
+	doesTuffGenerate = true
+	#toggle the generation of deepslate blobs
+	doesDeepslateGenerate = true
+
+["World Generation Settings"]
+	#determines the chance of amethyst geodes to spawn.
+	#this is chance works 1/number, so it the higher the number, the rarer it will be
+	#Default: 30
+	#Range: 0 ~ 100
+	amethystGeodeChance = 30
+
+["Entity Settings"]
+	#toggle the spawn of glowsquids
+	doGlowsquidsSpawn = true
+
+["Experimental Settings"]
+	#determines the max height for deepslate to generate, setting it to 0 disables it.
+	#Default: 0
+	#Range: 0 ~ 32
+	deepslateLayerMaxHeight = 0
+

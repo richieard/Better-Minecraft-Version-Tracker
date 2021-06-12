@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-centered
+  buttonaction = openlink
+  x = 106
+  width = 20
+  actionid = 48c609aa-5151-4f39-a324-07a73a3c091c1622754835547
+  action = addbutton
+  y = 178
+  label = D
+  value = 
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = top-centered
+  x = 109
+  width = 14
+  action = addtexture
+  actionid = cbb69b85-d11a-40b9-8b06-693d244f1b9c1622754766230
+  y = 181
+  height = 14
+}
+
+customization {
+  identifier = %id=398314%
+  action = setbuttonlabel
+  value = Open to LAN [Join Discord for Fix]
+}
+

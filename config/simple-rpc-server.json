@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "version": 1,
+  "multi_player": {
+    "enabled": true,
+    "state": "Playing online",
+    "description": "Playing on %servername% (%ip%) with %players% players",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "world_images": {
+    "enabled": false,
+    "worlds": [
+      {
+        "worldname": "overworld",
+        "largeImageKey": "overworld",
+        "largeImageText": "In the Overworld",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      },
+      {
+        "worldname": "the_nether",
+        "largeImageKey": "nether",
+        "largeImageText": "In the Nether",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      },
+      {
+        "worldname": "the_end",
+        "largeImageKey": "end",
+        "largeImageText": "In the End",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      }
+    ]
+  }
+}

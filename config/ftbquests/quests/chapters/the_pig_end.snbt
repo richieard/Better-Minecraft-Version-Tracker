@@ -1,0 +1,140 @@
+{
+	id: "059E67E64C563BDE",
+	group: "",
+	order_index: 6,
+	filename: "the_pig_end",
+	title: "The Pig End",
+	icon: "the_legency_of_villige:carved_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: -0.5d,
+			id: "72B612E341ACBB9D",
+			tasks: [{
+				id: "07D2C8170EBD73BE",
+				type: "dimension",
+				title: "Enter The Pig End Dimension",
+				icon: "the_legency_of_villige:carved_block",
+				dimension: "the_legency_of_villige:pig_end"
+			}],
+			rewards: [{
+				id: "14F7EC4E2754FA54",
+				type: "item",
+				item: {
+					id: "minecraft:writable_book",
+					Count: 1b,
+					tag: {
+						pages: [
+							"The Pig End is very dangerous. It has 3 mysterious creatures for you to find.The King Pig, Pigerus and Fantomir",
+							"The King Pig is found on the Pig Gold Island. The Pigerus is found on the Pig Gold Board Island. The Fantomir is found in a bubble world in a Levitating Arena"
+						],
+						RepairCost: 0,
+						display: {
+							Name: '{"text":"Where Pigs Came From?"}'
+						}
+					}
+				}
+			}]
+		},
+		{
+			icon: "the_legency_of_villige:pig_gold_boards",
+			x: 0.5d,
+			y: -0.5d,
+			id: "3DE0F9D96D1B32A1",
+			tasks: [{
+				id: "53AB2DC623BF8E9A",
+				type: "kill",
+				title: "Kill Pigerus",
+				entity: "the_legency_of_villige:pigerus",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5794006121C27677",
+				type: "item",
+				item: {
+					id: "the_legency_of_villige:totem_of_regeneration",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			icon: "the_legency_of_villige:pig_gold_block",
+			x: 2.0d,
+			y: -0.5d,
+			id: "529EDAA6287C631E",
+			tasks: [{
+				id: "4F929FEA94CB2B47",
+				type: "kill",
+				title: "Kill The King Pig",
+				entity: "the_legency_of_villige:the_king_pig",
+				value: 100L
+			}],
+			rewards: [{
+				id: "14AC9AFB9A473EC1",
+				type: "item",
+				item: {
+					id: "the_legency_of_villige:totem_of_strange",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			icon: "the_legency_of_villige:ancient_dragon_spawner",
+			x: 3.5d,
+			y: -0.5d,
+			id: "71614772D4E016AC",
+			tasks: [{
+				id: "415EBFE80E8948CE",
+				type: "kill",
+				title: "Kill The Fantomir",
+				entity: "the_legency_of_villige:fantomir",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: "0765CE328CB339BD",
+					type: "item",
+					item: {
+						id: "the_legency_of_villige:totem_of_regeneration",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3636FCC7B55EBA1A",
+					type: "item",
+					item: {
+						id: "the_legency_of_villige:totem_of_strange",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "63FEF52E9B54C7B0",
+					type: "item",
+					item: {
+						id: "totemofreviving:totem_of_reviving",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "264BA7C496A49E28",
+					type: "item",
+					item: "voidtotem:totem_of_void_undying"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	id: "0E5CAB3E66670858",
+	group: "",
+	order_index: 1,
+	filename: "the_skylands",
+	title: "The Skylands",
+	icon: "rediscovered:ruby",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Enter the Skylands Dimension",
+			icon: "rediscovered:ruby",
+			x: 0.0d,
+			y: 0.0d,
+			id: "37030B689D060EE6",
+			tasks: [{
+				id: "602BBC20202D5DD3",
+				type: "dimension",
+				title: "Enter The Skylands Dimension",
+				icon: "rediscovered:ruby",
+				dimension: "rediscovered:skylands"
+			}],
+			rewards: [{
+				id: "0C03008CB5AF8B88",
+				type: "item",
+				item: {
+					id: "minecraft:writable_book",
+					Count: 1b,
+					tag: {
+						pages: ["The Skylands are the home of Pigmen Traders. There are giants that roam the islands and a Red Dragon to be found."],
+						RepairCost: 0,
+						display: {
+							Name: '{"text":"The Lands In The Sky"}'
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			id: "6ED9894FDD190E3D",
+			tasks: [{
+				id: "68F3780385708501",
+				type: "kill",
+				title: "Kill a Giant",
+				icon: "minecraft:zombie_head",
+				entity: "minecraft:giant",
+				value: 1L
+			}],
+			rewards: [{
+				id: "33079399D9E221A6",
+				type: "item",
+				item: "rediscovered:red_dragon_egg"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			hide: true,
+			dependency_requirement: "all_started",
+			hide_text_until_complete: true,
+			id: "0EBA5D62A048C8E3",
+			tasks: [{
+				id: "0C2F6E3497BC6EFE",
+				type: "advancement",
+				title: "Trade with a Pigmen/Villager",
+				icon: "rediscovered:ruby_block",
+				advancement: "minecraft:adventure/trade",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "674E6E543EFDAA88",
+				type: "item",
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+	]
+}

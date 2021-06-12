@@ -1,0 +1,19 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.CreateWorldScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-centered
+  shadow = true
+  x = -318
+  action = addtext
+  actionid = 3c1e7e4c-c382-4d3d-b988-033f398bf7f01622754302575
+  y = 349
+  scale = 1.0
+  alignment = left
+  value = World Type: Default
+}
+

@@ -1,0 +1,102 @@
+{
+  "discordid": 789955899640381450,
+  "enabled": true,
+  "debugging": false,
+  "version": 6,
+  "init": {
+    "enabled": true,
+    "state": "Game Starting...",
+    "description": "Minecraft is loading",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "main_menu": {
+    "enabled": true,
+    "state": "Chilling in the menu",
+    "description": "%player% is currently lazy",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "server_list": {
+    "enabled": true,
+    "state": "Searching for friends",
+    "description": "%player% is looking for a server",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "single_player": {
+    "enabled": true,
+    "state": "Playing lonely mode",
+    "description": "Currently in %world%",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "multi_player": {
+    "enabled": true,
+    "state": "Playing online",
+    "description": "Playing on %servername% (%ip%) with %players% players",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "join_game": {
+    "enabled": true,
+    "state": "Joining Game",
+    "description": "%player% is joining a game",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "generic": {
+    "state": "",
+    "description": "Playing Minecraft",
+    "largeImageKey": "mclogo",
+    "largeImageText": "It's Minecraft %mcver%, but modded",
+    "smallImageKey": "mclogo",
+    "smallImageText": "%mods% mods installed",
+    "buttonsList": []
+  },
+  "world_images": {
+    "enabled": false,
+    "worlds": [
+      {
+        "worldname": "overworld",
+        "largeImageKey": "overworld",
+        "largeImageText": "In the Overworld",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      },
+      {
+        "worldname": "the_nether",
+        "largeImageKey": "nether",
+        "largeImageText": "In the Nether",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      },
+      {
+        "worldname": "the_end",
+        "largeImageKey": "end",
+        "largeImageText": "In the End",
+        "smallImageKey": "mclogo",
+        "smallImageText": "%mods% mods installed"
+      }
+    ]
+  },
+  "configPath": "C:\\Users\\DR Brink\\curseforge\\minecraft\\Instances\\Better Minecraft [FORGE]\\config\\simple-rpc.json"
+}
